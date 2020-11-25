@@ -1,0 +1,130 @@
+<!doctype html>
+<meta charset="utf-8"/>
+<html>
+
+<head>
+	<title>Nirvana PT Configurator</title>
+	<meta charset="utf-8">
+	<meta name="description" content="ラグマスギルド Nirvana の PT 編成ツールです。"/>
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link rel="shortcut icon" href="ui/favicon.ico" />
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MJ6264K');</script>
+	<!-- End Google Tag Manager -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!--<script src="https://unpkg.com/react@15/dist/react.js"></script>
+	<script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>-->
+
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+	<script src="select2/select2.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css?v=2020112501"/>
+	<script type="text/javascript" src="code.js?v=2020112501"></script>
+
+</head>
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJ6264K" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<div id="frame_main">
+		<div id="header">
+			<img src="ui/logo.png" width="10%" height="10%" style="margin-right:20px;"/>
+			<div id="maintitle" style="display:inline-block;">Nirvana PT Configurator</div>
+			<div id="subtitle">
+			</div>
+		</div>
+		<div id="frame_updatenotice" data-update="2020112503">
+				「参加者」を人数分「追加」し、それぞれの「新規プレイヤー」でプレイヤー、およびキャラクター(、ジョブ)を選択する。<br>
+				選択の後、[1][2][3][4] の数字を押し、各パーティにキャラクターを追加する([x] ボタンで削除も可能)。<br>
+				パーティが組めたら、「貼付用」ボタンを押すことでゲーム内に貼り付けるテキストが生成される。
+				
+			<div id="update_icon">!</div>
+			<div class="button" id="button_closeupdatenotice" onclick="hideUpdateNotice();">x</div>
+		</div>
+		<div id="frame_options">
+			<div id="frame_enemies">
+				<div id="enemies_bar_top">
+					<div class="bar_top_title">編成
+						<div class="bar_top_title_right">
+							<div class="button button_importexport" id="export_enemies">貼付用</div>
+						</div>
+					</div>
+				</div>
+				<div id="enemies_custom_list" class="frame_hero_main">
+					<div id="cl_enemylist">
+						<div id="cl_enemylist_list"></div>
+						<div id="cl_addenemy" class="clbutton button" onclick="addClEnemy();">+追加</div>
+						<div id="cl_removeall" class="clbutton button" onclick="removeAllClEnemies();">-全削除</div>
+					</div>
+					<div class="frame_hero_main_right">
+						<div class="bar_top_list">
+							<select id="cl_enemy_list" data-var="options.customEnemySelected"></select>
+							<div class="button bar_top_button reset_enemies" id="add_cl_enemy" onclick="addClEnemy();">追加</div>
+							<div class="button bar_top_button reset_enemies" id="delete_cl_selected" onclick="deleteSelectedClEnemy();">削除</div>
+							<div class="bar_top_list_right">
+								<div class=" bar_top_list_right button bar_top_button reset_enemies" id="clear_cl_list" onclick="removeAllClEnemies();">全削除</div>
+							</div>
+						</div>
+						<div class="bar_top_options">
+							<select id="cl_enemy_name" data-var="enemies.cl.list.index"></select>
+							<select id="cl_enemy_character" data-var="enemies.cl.list.character"></select>
+							<select id="cl_enemy_job" data-var="enemies.cl.list.job"></select>
+							<div class="bar_top_options_right">
+								<div class="button bar_top_button button_addpt" id="0">1</div>
+								<div class="button bar_top_button button_addpt" id="1">2</div>
+								<div class="button bar_top_button button_addpt" id="2">3</div>
+								<div class="button bar_top_button button_addpt" id="3">4</div>
+							</div>
+						</div>
+						<div class="frame_hero_main_top">
+							<div class="pt_left">
+								<div class="skill_row">
+									<div id="cl_pt0list_list"></div>
+								</div>
+							</div>
+							<div class="pt_right">
+								<div class="skill_row">
+									<div id="cl_pt1list_list"></div>
+								</div>
+							</div>
+						</div>
+						<div class="frame_hero_main_bottom">
+							<div class="pt_left">
+								<div class="skill_row">
+									<div id="cl_pt2list_list"></div>
+								</div>
+							</div>
+							<div class="pt_right">
+								<div class="skill_row">
+									<div id="cl_pt3list_list"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">バグ、要望等については <a href="https://twitter.com/ROM_Kraepelin">@ROM_Kraepelin</a> までご連絡ください.</div>
+	</div>
+	<div id="frame_tooltip"></div>
+	<div id="screen_fade"></div>
+	<div id="frame_import" class="challengerimport">
+		<div id="import_header">
+			<span id="import_title"></span>
+			<div class="button" id="import_exit">x</div>
+		</div>
+		<textarea class="importinput" id="importinput" tabindex="-1" ></textarea>
+		<div id="import_clear">
+			<div class="button" id="button_clear">クリア</div>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,403 @@
+[
+    {
+        "character_id": 0,
+        "name": "アリウム",
+        "person_id": 0
+    },{
+        "character_id": 1,
+        "name": "ミルトニア",
+        "person_id": 0
+    },{
+        "character_id": 2,
+        "name": "ローレンティア",
+        "person_id": 0
+    },{
+        "character_id": 3,
+        "name": "こぶた",
+        "person_id": 1
+    },{
+        "character_id": 4,
+        "name": "イベリコ豚",
+        "person_id": 1
+    },{
+        "character_id": 5,
+        "name": "イルルゥ",
+        "person_id": 1
+    },{
+        "character_id": 6,
+        "name": "漆黒の雄豚",
+        "person_id": 1
+    },{
+        "character_id": 7,
+        "name": "皇帝ぺンギン",
+        "person_id": 1
+    },{
+        "character_id": 8,
+        "name": "ホウセン力",
+        "person_id": 1
+    },{
+        "character_id": 9,
+        "name": "Disaster",
+        "person_id": 2
+    },{
+        "character_id": 10,
+        "name": "disaster",
+        "person_id": 2
+    },{
+        "character_id": 11,
+        "name": "でざ",
+        "person_id": 2
+    },{
+        "character_id": 12,
+        "name": "でざお",
+        "person_id": 2
+    },{
+        "character_id": 13,
+        "name": "でざを",
+        "person_id": 2
+    },{
+        "character_id": 14,
+        "name": "fado",
+        "person_id": 2
+    },{
+        "character_id": 15,
+        "name": "コバンザメ",
+        "person_id": 2
+    },{
+        "character_id": 16,
+        "name": "ガーノ",
+        "person_id": 3
+    },{
+        "character_id": 17,
+        "name": "ガーノ甲",
+        "person_id": 3
+    },{
+        "character_id": 18,
+        "name": "ガーノ乙",
+        "person_id": 3
+    },{
+        "character_id": 19,
+        "name": "ガーノ丙",
+        "person_id": 3
+    },{
+        "character_id": 20,
+        "name": "ガーノ丁",
+        "person_id": 3
+    },{
+        "character_id": 21,
+        "name": "クレ",
+        "person_id": 4
+    },{
+        "character_id": 22,
+        "name": "クレアラシル",
+        "person_id": 4
+    },{
+        "character_id": 23,
+        "name": "クレジット",
+        "person_id": 4
+    },{
+        "character_id": 24,
+        "name": "クレンザー",
+        "person_id": 4
+    },{
+        "character_id": 25,
+        "name": "クレペリン",
+        "person_id": 4
+    },{
+        "character_id": 26,
+        "name": "クレサンベール",
+        "person_id": 4
+    },{
+        "character_id": 27,
+        "name": "スー",
+        "person_id": 5
+    },{
+        "character_id": 28,
+        "name": "クメリア",
+        "person_id": 5
+    },{
+        "character_id": 29,
+        "name": "白姫紫乃",
+        "person_id": 5
+    },{
+        "character_id": 30,
+        "name": "みさ吉",
+        "person_id": 5
+    },{
+        "character_id": 31,
+        "name": "モコシロウ",
+        "person_id": 6
+    },{
+        "character_id": 32,
+        "name": "モコシー",
+        "person_id": 6
+    },{
+        "character_id": 33,
+        "name": "モモシー",
+        "person_id": 6
+    },{
+        "character_id": 34,
+        "name": "明麟",
+        "person_id": 7
+    },{
+        "character_id": 35,
+        "name": "由梨香",
+        "person_id": 7
+    },{
+        "character_id": 36,
+        "name": "じゅんせ",
+        "person_id": 8
+    },{
+        "character_id": 37,
+        "name": "Houdini",
+        "person_id": 9
+    },{
+        "character_id": 38,
+        "name": "☆白雪☆",
+        "person_id": 10
+    },{
+        "character_id": 39,
+        "name": "☆EDEN☆",
+        "person_id": 10
+    },{
+        "character_id": 40,
+        "name": "☆黒雪☆",
+        "person_id": 10
+    },{
+        "character_id": 41,
+        "name": "瀬川",
+        "person_id": 11
+    },{
+        "character_id": 42,
+        "name": "椿餅",
+        "person_id": 12
+    },{
+        "character_id": 43,
+        "name": "有住",
+        "person_id": 12
+    },{
+        "character_id": 44,
+        "name": "†日向†",
+        "person_id": 12
+    },{
+        "character_id": 45,
+        "name": "春餅",
+        "person_id": 12
+    },{
+        "character_id": 46,
+        "name": "赤タオル",
+        "person_id": 13
+    },{
+        "character_id": 47,
+        "name": "ルウタ",
+        "person_id": 13
+    },{
+        "character_id": 48,
+        "name": "銀桃",
+        "person_id": 14
+    },{
+        "character_id": 49,
+        "name": "shiruru",
+        "person_id": 14
+    },{
+        "character_id": 50,
+        "name": "リルファーレ",
+        "person_id": 15
+    },{
+        "character_id": 51,
+        "name": "サイコバニー",
+        "person_id": 16
+    },{
+        "character_id": 52,
+        "name": "アイリ☆彡",
+        "person_id": 16
+    },{
+        "character_id": 53,
+        "name": "キラ☆彡",
+        "person_id": 16
+    },{
+        "character_id": 54,
+        "name": "釣りキチ三平米",
+        "person_id": 17
+    },{
+        "character_id": 55,
+        "name": "チヌ太郎",
+        "person_id": 17
+    },{
+        "character_id": 56,
+        "name": "AJ",
+        "person_id": 18
+    },{
+        "character_id": 57,
+        "name": "ASHGUN",
+        "person_id": 18
+    },{
+        "character_id": 58,
+        "name": "CAPRICORN",
+        "person_id": 18
+    },{
+        "character_id": 59,
+        "name": "綾乃さん",
+        "person_id": 18
+    },{
+        "character_id": 60,
+        "name": "たらこ卿",
+        "person_id": 18
+    },{
+        "character_id": 61,
+        "name": "ニーナ・オルティス",
+        "person_id": 18
+    },{
+        "character_id": 62,
+        "name": "シーたん",
+        "person_id": 19
+    },{
+        "character_id": 63,
+        "name": "シーたぬ",
+        "person_id": 19
+    },{
+        "character_id": 64,
+        "name": "シズ=フレアー",
+        "person_id": 19
+    },{
+        "character_id": 65,
+        "name": "りそやま",
+        "person_id": 20
+    },{
+        "character_id": 66,
+        "name": "閣下たん",
+        "person_id": 20
+    },{
+        "character_id": 67,
+        "name": "ボブ・キャット",
+        "person_id": 20
+    },{
+        "character_id": 68,
+        "name": "アーチボルト・グリムズ",
+        "person_id": 20
+    },{
+        "character_id": 69,
+        "name": "KxOxUxMxExI",
+        "person_id": 21
+    },{
+        "character_id": 70,
+        "name": "KxOxUxMxExI'",
+        "person_id": 21
+    },{
+        "character_id": 71,
+        "name": "コウメイの罠",
+        "person_id": 21
+    },{
+        "character_id": 72,
+        "name": "SatoMi",
+        "person_id": 21
+    },{
+        "character_id": 73,
+        "name": "CHiP",
+        "person_id": 21
+    },{
+        "character_id": 74,
+        "name": "SatoMi'",
+        "person_id": 21
+    },{
+        "character_id": 75,
+        "name": "まーとん",
+        "person_id": 22
+    },{
+        "character_id": 76,
+        "name": "まとまとま",
+        "person_id": 22
+    },{
+        "character_id": 77,
+        "name": "アサエル",
+        "person_id": 23
+    },{
+        "character_id": 78,
+        "name": "ハイフリー",
+        "person_id": 24
+    },{
+        "character_id": 79,
+        "name": "SHIKA",
+        "person_id": 25
+    },{
+        "character_id": 80,
+        "name": "わぁか",
+        "person_id": 26
+    },{
+        "character_id": 81,
+        "name": "わか太",
+        "person_id": 26
+    },{
+        "character_id": 82,
+        "name": "81",
+        "person_id": 27
+    },{
+        "character_id": 83,
+        "name": "やわらかさに定評の…",
+        "person_id": 27
+    },{
+        "character_id": 84,
+        "name": "yujiro",
+        "person_id": 28
+    },{
+        "character_id": 85,
+        "name": "ルナ姐",
+        "person_id": 29
+    },{
+        "character_id": 86,
+        "name": "セレナ2019",
+        "person_id": 30
+    },{
+        "character_id": 87,
+        "name": "セレナ2020",
+        "person_id": 30
+    },{
+        "character_id": 88,
+        "name": "メイガス",
+        "person_id": 31
+    },{
+        "character_id": 89,
+        "name": "ミサヨ",
+        "person_id": 32
+    },{
+        "character_id": 90,
+        "name": "☆ナナキ☆",
+        "person_id": 33
+    },{
+        "character_id": 91,
+        "name": "ぽこっち",
+        "person_id": 34
+    },{
+        "character_id": 92,
+        "name": "るっちぇこ",
+        "person_id": 34
+    },{
+        "character_id": 93,
+        "name": "ディルセア",
+        "person_id": 35
+    },{
+        "character_id": 94,
+        "name": "液漏れ電池",
+        "person_id": 36
+    },{
+        "character_id": 95,
+        "name": "まりモナカ",
+        "person_id": 37
+    },{
+        "character_id": 96,
+        "name": "まりもなか",
+        "person_id": 37
+    },{
+        "character_id": 97,
+        "name": "マリもなか",
+        "person_id": 37
+    },{
+        "character_id": 98,
+        "name": "つぶもなか",
+        "person_id": 37
+    },{
+        "character_id": 99,
+        "name": "ジェーン+グレイ",
+        "person_id": 38
+    }
+]

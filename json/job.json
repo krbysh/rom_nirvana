@@ -1,0 +1,63 @@
+[
+    {
+        "job_id": 1,
+        "name": "RK",
+        "tier": 4
+    },{
+        "job_id": 2,
+        "name": "魚",
+        "tier": 4
+    },{
+        "job_id": 3,
+        "name": "珍",
+        "tier": 4
+    },{
+        "job_id": 4,
+        "name": "連",
+        "tier": 4
+    },{
+        "job_id": 5,
+        "name": "AB",
+        "tier": 4
+    },{
+        "job_id": 6,
+        "name": "メカ",
+        "tier": 4
+    },{
+        "job_id": 7,
+        "name": "RG",
+        "tier": 4
+    },{
+        "job_id": 8,
+        "name": "皿",
+        "tier": 4
+    },{
+        "job_id": 9,
+        "name": "葱",
+        "tier": 4
+    },{
+        "job_id": 10,
+        "name": "民",
+        "tier": 4
+    },{
+        "job_id": 11,
+        "name": "湾",
+        "tier": 4
+    },{
+        "job_id": 12,
+        "name": "修羅",
+        "tier": 4
+    },{
+        "job_id": 13,
+        "name": "ジェネ",
+        "tier": 4
+    },{
+        "job_id": 14,
+        "name": "ノビ",
+        "tier": 4
+    },{
+        "job_id": 15,
+        "name": "猫",
+        "tier": 4
+    }
+]

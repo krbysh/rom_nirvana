@@ -1,0 +1,198 @@
+[
+    {
+        "person_id": 0,
+        "name": "アリウム",
+        "character_id": 0,
+        "kicked": 0
+    },{
+        "person_id": 1,
+        "name": "こぶた",
+        "character_id": 3,
+        "kicked": 0
+    },{
+        "person_id": 2,
+        "name": "Disaster",
+        "character_id": 9,
+        "kicked": 0
+    },{
+        "person_id": 3,
+        "name": "ガーノ",
+        "character_id": 16,
+        "kicked": 0
+    },{
+        "person_id": 4,
+        "name": "クレ",
+        "character_id": 21,
+        "kicked": 0
+    },{
+        "person_id": 5,
+        "name": "スー",
+        "character_id": 27,
+        "kicked": 0
+    },{
+        "person_id": 6,
+        "name": "モコシロウ",
+        "character_id": 31,
+        "kicked": 0
+    },{
+        "person_id": 7,
+        "name": "明麟",
+        "character_id": 34,
+        "kicked": 0
+    },{
+        "person_id": 8,
+        "name": "じゅんせ",
+        "character_id": 36,
+        "kicked": 0
+    },{
+        "person_id": 9,
+        "name": "Houdini",
+        "character_id": 37,
+        "kicked": 0
+    },{
+        "person_id": 10,
+        "name": "☆白雪★",
+        "character_id": 38,
+        "kicked": 0
+    },{
+        "person_id": 11,
+        "name": "瀬川",
+        "character_id": 41,
+        "kicked": 0
+    },{
+        "person_id": 12,
+        "name": "椿餅",
+        "character_id": 42,
+        "kicked": 0
+    },{
+        "person_id": 13,
+        "name": "赤タオル",
+        "character_id": 46,
+        "kicked": 0
+    },{
+        "person_id": 14,
+        "name": "銀桃",
+        "character_id": 48,
+        "kicked": 0
+    },{
+        "person_id": 15,
+        "name": "リルファーレ",
+        "character_id": 50,
+        "kicked": 0
+    },{
+        "person_id": 16,
+        "name": "サイコバニー",
+        "character_id": 51,
+        "kicked": 1
+    },{
+        "person_id": 17,
+        "name": "釣りキチ三平米",
+        "character_id": 54,
+        "kicked": 0
+    },{
+        "person_id": 18,
+        "name": "AJ",
+        "character_id": 56,
+        "kicked": 0
+    },{
+        "person_id": 19,
+        "name": "シーたん",
+        "character_id": 62,
+        "kicked": 0
+    },{
+        "person_id": 20,
+        "name": "りそやま",
+        "character_id": 65,
+        "kicked": 0
+    },{
+        "person_id": 21,
+        "name": "KxOxUxMxExI",
+        "character_id": 69,
+        "kicked": 0
+    },{
+        "person_id": 22,
+        "name": "まーとん",
+        "character_id": 75,
+        "kicked": 0
+    },{
+        "person_id": 23,
+        "name": "アサエル",
+        "character_id": 77,
+        "kicked": 0
+    },{
+        "person_id": 24,
+        "name": "ハイフリー",
+        "character_id": 78,
+        "kicked": 0
+    },{
+        "person_id": 25,
+        "name": "SHIKA",
+        "character_id": 79,
+        "kicked": 0
+    },{
+        "person_id": 26,
+        "name": "わぁか",
+        "character_id": 80,
+        "kicked": 0
+    },{
+        "person_id": 27,
+        "name": "81",
+        "character_id": 82,
+        "kicked": 0
+    },{
+        "person_id": 28,
+        "name": "yujiro",
+        "character_id": 84,
+        "kicked": 0
+    },{
+        "person_id": 29,
+        "name": "ルナ姐",
+        "character_id": 85,
+        "kicked": 1
+    },{
+        "person_id": 30,
+        "name": "セレナ2019",
+        "character_id": 86,
+        "kicked": 0
+    },{
+        "person_id": 31,
+        "name": "メイガス",
+        "character_id": 88,
+        "kicked": 1
+    },{
+        "person_id": 32,
+        "name": "ミサヨ",
+        "character_id": 89,
+        "kicked": 0
+    },{
+        "person_id": 33,
+        "name": "☆ナナキ☆",
+        "character_id": 90,
+        "kicked": 0
+    },{
+        "person_id": 34,
+        "name": "ぽこっち",
+        "character_id": 91,
+        "kicked": 0
+    },{
+        "person_id": 35,
+        "name": "ディルセア",
+        "character_id": 93,
+        "kicked": 0
+    },{
+        "person_id": 36,
+        "name": "液漏れ電池",
+        "character_id": 94,
+        "kicked": 0
+    },{
+        "person_id": 37,
+        "name": "まりモナカ",
+        "character_id": 95,
+        "kicked": 0
+    },{
+        "person_id": 38,
+        "name": "ジェーン+グレイ",
+        "character_id": 99,
+        "kicked": 0
+    }
+]
