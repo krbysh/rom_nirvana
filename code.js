@@ -612,10 +612,7 @@ function getExportText(){
 			exportText += "PT" + (i + 1) + ":";  
 			for(var j = 0; j < data.pt[i].length; j++){
 				name= data.pt[i][j];
-				console.log(name);
 				var splittedname = String(name).split( /\(|\)/, 2 );
-				console.log(splittedname[0]);
-				console.log(splittedname[1]);
 				if(splittedname[1]){
 					exportText += String(splittedname[0]).slice(0, 4) + "(" + splittedname[1] + ");";
 				} else {
@@ -709,7 +706,7 @@ function updatePtList(ptIndex){
 	if (arguments.length < 1) {
 		for (var j = 0; j < 4; j++){
 			ptIndex = j;
-			console.log(data.pt[ptIndex]);
+//			console.log(data.pt[ptIndex]);
 			$("#cl_pt"+ptIndex+"list_list").empty();
 			for(var i = 0; i < data.pt[ptIndex].length; i++){
 				var enemyName = data.pt[ptIndex][i];
