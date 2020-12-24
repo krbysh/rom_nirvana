@@ -194,5 +194,10 @@
         "name": "ジェーン+グレイ",
         "character_id": 99,
         "kicked": 0
+    },{
+        "person_id": 39,
+        "name": "selt",
+        "character_id": 100,
+        "kicked": 0
     }
 ]
