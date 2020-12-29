@@ -60,21 +60,6 @@ var debug = true;
 data.pt = [[],[],[],[]];
 
 
-//let data_en = Object.assign({}, data);
-//var data_en = $.extend(true, {}, data);
-
-//Sort person array by name
-//data.person.sort(function(a,b){
-	//console.log(a.name + ", " + b.name + ": " + a.name>b.name);
-//	return (a.name.toLowerCase() > b.name.toLowerCase())*2-1;
-//})
-
-//Sort character array by name
-//data.character.sort(function(a,b){
-//	//console.log(a.name + ", " + b.name + ": " + a.name>b.name);
-//	return (a.name.toLowerCase() > b.name.toLowerCase())*2-1;
-//})
-
 data.personDefaultCharacters = [];
 data.personBaseCharacters = [];
 
@@ -175,8 +160,6 @@ $(document).ready(function(){
 		var dataVar = $(this).attr("data-var");
 		if(dataVar){
 			var newVal = $(this).val();
-			var useCalcuwait = false;
-			var blockCalculate = false;
 
 			if(beginsWith(dataVar,"enemies.cl.list")){
 				if(options.customEnemySelected == -1){
@@ -210,15 +193,6 @@ $(document).ready(function(){
 			}
 
 			changeDataVar(dataVar,newVal);
-
-			//Stuff specific to changing skill
-			if(endsWith(dataVar,".character")){
-				if(newVal != -1){
-					//***This does nothing?***
-					var dataToPass = data.character[newVal].name;
-					//***This does nothing?***
-				}
-			}
 
 			//Stuff specific to changing hero
 			if(endsWith(dataVar,".index")){
