@@ -203,11 +203,11 @@
         "person_id": 40,
         "name": "MIkka",
         "character_id": 101,
-        "kicked": 1
+        "kicked": 0
     },{
         "person_id": 41,
         "name": "ユーユーー",
         "character_id": 102,
-        "kicked": 1
+        "kicked": 0
     }
 ]
