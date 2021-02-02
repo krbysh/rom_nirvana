@@ -403,5 +403,13 @@
         "character_id": 100,
         "name": "selt",
         "person_id": 39
+    },{
+        "character_id": 101,
+        "name": "MIkka",
+        "person_id": 40
+    },{
+        "character_id": 102,
+        "name": "ユーユーー",
+        "person_id": 41
     }
 ]
