@@ -411,5 +411,9 @@
         "character_id": 102,
         "name": "ユーユーー",
         "person_id": 41
-    }
+    },{
+        "character_id": 103,
+        "name": "sasama",
+        "person_id": 42
+        }
 ]

@@ -209,5 +209,11 @@
         "name": "ユーユーー",
         "character_id": 102,
         "kicked": 0
+    },{
+        "person_id": 41,
+        "name": "sasama",
+        "character_id": 103,
+        "kicked": 0
+    
     }
 ]
